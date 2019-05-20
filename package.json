@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-redis-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "redis-server": "redis-5.0.5/src/redis-server",
+    "redis-cli": "redis-5.0.5/src/redis-cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.4",
+    "express": "^4.17.0",
+    "redis": "^2.8.0"
+  }
+}
